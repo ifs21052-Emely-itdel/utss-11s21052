@@ -12,6 +12,8 @@
     <string name="daftar_dinosaurus">Daftar Dinosaurus</string>
     <string name="desc">Aplikasi ini merupakan aplikasi yang dibangun selama ujian praktikum mata kuliah PAM. Saya menikmati proses pengerjaannya dan sedikit menyesal karena tidak sempat menyelesaikan pembangunan aplikasi ini. Semoga saya tetap mendapatkan nilai. Terima kasih kepada bapak dan ibu pengajar, salam.</string>
     <string name="nama">Emely Angelica Lestari</string>
+    <string name="picpro">emely.png</string>
+    <string name="contoh">Contoh Gambar</string>
 
     <string-array name="dinofams_name">
         <item>Tyrannosauridae</item>
@@ -58,7 +60,7 @@
     </string-array>
 
     <string-array name="dinos_characteristic">
-       <item>Karnivora besar berahang kuat, bergigi tajam, berkaki dua, berlengan pendek dua jari, berlari cepat, penglihatan dan pendengaran tajam.</item>
+        <item>Karnivora besar berahang kuat, bergigi tajam, berkaki dua, berlengan pendek dua jari, berlari cepat, penglihatan dan pendengaran tajam.</item>
         <item>Herbivora berleher dan berekor panjang, berkaki empat, bertubuh besar dan kuat, berleher panjang untuk mencapai pucuk pohon, berekor panjang untuk keseimbangan.</item>
         <item>Herbivora berpelat tulang di punggung, berkaki empat, berekor panjang berduri, berotak kecil, bergerak lambat.</item>
         <item>Herbivora bertanduk di wajah, berkaki empat, berparuh untuk makan tanaman, bertanduk untuk pertahanan dan pertunjukan, penglihatan dan pendengaran tajam.</item>

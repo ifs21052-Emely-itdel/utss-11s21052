@@ -102,6 +102,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 true
             }
+            R.id.menu_baru -> {
+                val intent = Intent(this, GambarDino::class.java)
+                startActivity(intent)
+                true
+            }
             R.id.menu_toast -> showToast()
             else -> return super.onOptionsItemSelected(item)
         }

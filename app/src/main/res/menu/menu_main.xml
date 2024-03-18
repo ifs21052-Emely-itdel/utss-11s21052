@@ -11,4 +11,8 @@
         android:id="@+id/menu_toast"
         android:title="@string/daftar_dinosaurus"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_baru"
+        android:title="@string/contoh"
+        app:showAsAction="never" />
 </menu>
