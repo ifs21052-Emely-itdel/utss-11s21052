@@ -5,15 +5,10 @@
     <string name="info_dino_desc">Deskripsi</string>
     <string name="info_dino_periode">Periode Hidup</string>
     <string name="info_dino_characteristic">Karakteristik Fisik</string>
-    <string name="info_dino_habitat">Habitat dan Lingkungan</string>
+    <string name="info_dino_habitat">Habitat</string>
     <string name="info_dino_lingkungan">Lingkungan</string>
     <string name="info_dino_perilaku">Perilaku</string>
     <string name="info_dino_klasifikasi">Klasifikasi</string>
-    <string name="daftar_dinosaurus">Daftar Dinosaurus</string>
-    <string name="desc">Aplikasi ini merupakan aplikasi yang dibangun selama ujian praktikum mata kuliah PAM. Saya menikmati proses pengerjaannya dan sedikit menyesal karena tidak sempat menyelesaikan pembangunan aplikasi ini. Semoga saya tetap mendapatkan nilai. Terima kasih kepada bapak dan ibu pengajar, salam.</string>
-    <string name="nama">Emely Angelica Lestari</string>
-    <string name="picpro">emely.png</string>
-    <string name="contoh">Contoh Gambar</string>
 
     <string-array name="dinofams_name">
         <item>Tyrannosauridae</item>

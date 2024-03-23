@@ -9,10 +9,14 @@
         app:showAsAction="always"/>
     <item
         android:id="@+id/menu_toast"
-        android:title="@string/daftar_dinosaurus"
+        android:title="Show Toast"
         app:showAsAction="never" />
     <item
-        android:id="@+id/menu_baru"
-        android:title="@string/contoh"
+        android:id="@+id/menu_snackbar"
+        android:title="Show Snackbar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_alert"
+        android:title="Show Alert"
         app:showAsAction="never" />
 </menu>

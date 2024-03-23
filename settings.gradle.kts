@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PAMPreaktikum 7B"
+rootProject.name = "Dino Pedia"
 include(":app")
  

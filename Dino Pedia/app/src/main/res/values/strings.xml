@@ -1,0 +1,316 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_dino_icon">Ikon Dino</string>
+    <string name="info_dinofam_name">Nama Family</string>
+    <string name="info_dino_desc">Deskripsi</string>
+    <string name="info_dino_periode">Periode Hidup</string>
+    <string name="info_dino_characteristic">Karakteristik Fisik</string>
+    <string name="info_dino_habitat">Habitat dan Lingkungan</string>
+    <string name="info_dino_perilaku">Perilaku dan Klasifikasi</string>
+    <string name="daftar_dinosaurus">List Dinosaurus</string>
+    <string name="desc">Aplikasi ini menyediakan informasi seputar dinosaurus, selamat belajar!</string>
+    <string name="nama">Emely Angelica Lestari</string>
+    <string name="picpro">emely.png</string>
+    <string name="contoh">Contoh Gambar</string>
+    <string name="info_namaDino">Nama Dinosaurus</string>
+    <string name="info_gbrDino">Gambar Dino</string>
+    <string name="info_descDino">Deskripsi</string>
+    <string name="info_kelDino">Kelompok</string>
+    <string name="info_habitatDino">Habitat</string>
+    <string name="info_makananDino">Makanan</string>
+    <string name="info_panjangDino">Panjang</string>
+    <string name="info_tinggiDino">Tinggi</string>
+    <string name="info_bobotDino">Bobot</string>
+    <string name="info_kelemahanDino">Kelemahan</string>
+    <string name="contoh_dino">Lihat Dino</string>
+
+    <string-array name="dinofams_name">
+        <item>Tyrannosauridae</item>
+        <item>Sauropoda</item>
+        <item>Stegosauridae</item>
+        <item>Ceratopsia</item>
+        <item>Hadrosauridae</item>
+        <item>Ankylosauridae</item>
+        <item>Ornithopoda</item>
+        <item>Stegosauria</item>
+    </string-array>
+
+    <string-array name="dinos_icon">
+        <item>@drawable/_1</item>
+        <item>@drawable/_2</item>
+        <item>@drawable/_3</item>
+        <item>@drawable/_4</item>
+        <item>@drawable/_5</item>
+        <item>@drawable/_6</item>
+        <item>@drawable/_7</item>
+        <item>@drawable/_8</item>
+    </string-array>
+
+    <string-array name="dinos_description">
+        <item>Raja predator ganas dengan rahang kuat dan gigi tajam. Berjalan dengan dua kaki, menerkam mangsanya dengan cakar tajam. Lengan pendeknya tak sebanding dengan kekuatan rahangnya.</item>
+        <item>Raksasa herbivora berleher panjang, menjelajah hutan purba. Berjalan dengan empat kaki kokoh, menjangkau pucuk pohon tinggi. Tubuh besarnya mencerminkan kekuatan dan keanggunannya.</item>
+        <item>Dinosaurus herbivora berlapis baja, aman dari predator. Punggungnya dihiasi pelat tulang, ekornya berduri tajam. Berjalan dengan empat kaki, memakan tanaman dengan paruh kecilnya.</item>
+        <item>Dinosaurus herbivora bertanduk, siap melawan predator. Tanduk di wajahnya menjadi senjata dan pelindung. Paruhnya yang kuat memungkinkannya memakan berbagai tanaman.</item>
+        <item>Dinosaurus herbivora berparuh bebek, unik dan menarik. Berjalan dengan dua kaki, jambul di kepalanya menandakan identitasnya. Paruhnya yang seperti bebek memungkinkannya menyaring makanan dari air.</item>
+        <item>Dinosaurus herbivora berlapis baja, tak terkalahkan. Tubuhnya terbungkus armor tebal, ekornya menjadi gada mematikan. Berjalan dengan empat kaki, memakan tanaman dengan paruhnya yang kecil.</item>
+        <item>Karnivora gesit dengan berbagai bentuk dan ukuran. Berjalan dengan dua kaki, berburu mangsanya dengan kecepatan tinggi. Beberapa spesies memiliki bulu, menunjukkan evolusi menuju burung.</item>
+        <item>Raksasa herbivora berleher panjang, nenek moyang sauropoda. Berjalan dengan empat kaki, menjelajahi habitatnya dengan tenang. Memiliki berbagai ukuran dan bentuk, menunjukkan keragaman evolusi.</item>
+    </string-array>
+
+    <string-array name="dinos_periode">
+        <item>Kapur Akhir (72–66 juta tahun lalu)</item>
+        <item>Jura Akhir – Kapur Akhir (157–66 juta tahun lalu)</item>
+        <item>Jura Akhir – Kapur Awal (157–100 juta tahun lalu)</item>
+        <item>Kapur Akhir (76–66 juta tahun lalu)</item>
+        <item>Kapur Akhir (76–66 juta tahun lalu)</item>
+        <item>Kapur Awal – Kapur Akhir (125–66 juta tahun lalu)</item>
+        <item>Trias Akhir – Kapur Akhir (230–66 juta tahun lalu)</item>
+        <item>Trias Akhir – Kapur Akhir (230–66 juta tahun lalu)</item>
+    </string-array>
+
+    <string-array name="dinos_characteristic">
+        <item>Karnivora besar berahang kuat, bergigi tajam, berkaki dua, berlengan pendek dua jari, berlari cepat, penglihatan dan pendengaran tajam.</item>
+        <item>Herbivora berleher dan berekor panjang, berkaki empat, bertubuh besar dan kuat, berleher panjang untuk mencapai pucuk pohon, berekor panjang untuk keseimbangan.</item>
+        <item>Herbivora berpelat tulang di punggung, berkaki empat, berekor panjang berduri, berotak kecil, bergerak lambat.</item>
+        <item>Herbivora bertanduk di wajah, berkaki empat, berparuh untuk makan tanaman, bertanduk untuk pertahanan dan pertunjukan, penglihatan dan pendengaran tajam.</item>
+        <item>Herbivora berparuh bebek, berkaki dua, berjambul di kepala, berparuh untuk menyaring makanan dari air, pandai berenang.</item>
+        <item>Herbivora berlapis baja, berkaki empat, berekor kuat untuk pertahanan, berotak kecil, bergerak lambat.</item>
+        <item>Karnivora dengan berbagai ukuran dan bentuk, berkaki dua, berbulu (pada beberapa spesies), berlari cepat, burung modern adalah keturunannya.</item>
+        <item>Herbivora berleher panjang, berkaki empat, memiliki berbagai ukuran dan bentuk, berleher panjang untuk mencapai pucuk pohon, berekor panjang untuk keseimbangan.</item>
+    </string-array>
+
+    <string-array name="dinos_habitat">
+        <item>Hutan, dataran, dan tepi sungai.</item>
+        <item>Hutan, dataran, dan tepi sungai.</item>
+        <item>Hutan dan dataran.</item>
+        <item>Hutan, dataran, dan tepi sungai.</item>
+        <item>Hutan, dataran, dan tepi sungai.</item>
+        <item>Hutan, dataran, dan tepi sungai.</item>
+        <item>Beragam, tergantung spesies.</item>
+        <item>Hutan dan dataran.</item>
+    </string-array>
+
+    <string-array name="dinos_perilaku">
+        <item>Karnivora ganas, berburu mangsa dalam kelompok kecil, menggunakan rahang dan gigi kuat untuk membunuh mangsanya.</item>
+        <item>Herbivora, memakan tumbuhan tinggi, hidup dalam kelompok besar untuk perlindungan.</item>
+        <item>Herbivora, memakan tumbuhan rendah, menggunakan pelat tulang dan duri ekor untuk pertahanan.</item>
+        <item>Herbivora, memakan tumbuhan, menggunakan tanduk untuk pertahanan dan pertunjukan.</item>
+        <item>Herbivora, memakan tumbuhan air, hidup dalam kelompok besar.</item>
+        <item>Herbivora, memakan tumbuhan rendah, menggunakan armor dan ekor gada untuk pertahanan.</item>
+        <item>Karnivora dan omnivora, berburu mangsa, beberapa spesies memiliki bulu.</item>
+        <item>Herbivora, memakan tumbuhan tinggi, hidup dalam kelompok besar.</item>
+    </string-array>
+
+    <string-array name="namaDino">
+        <item>Tyrannosaurus Rex</item>
+        <item>Brachiosaurus</item>
+        <item>Stegosaurus stenops</item>
+        <item>Triceratops horridus</item>
+        <item>Parasaurolophus walkeri</item>
+        <item>Ankylosaurus magniventris</item>
+        <item>Velociraptor mongoliensis</item>
+        <item>Diplodocus longus</item>
+        <item>Ornithomimus</item>
+        <item>Stegosaurus</item>
+        <item>Allosaurus</item>
+        <item>Pachycephalosaurus</item>
+        <item>Spinosaurus</item>
+        <item>Brontosaurus</item>
+        <item>Archaeopteryx</item>
+        <item>Deinonychus</item>
+    </string-array>
+
+    <string-array name="gbrDino">
+        <item>@drawable/ic_tyrannosauruss</item>
+        <item>@drawable/ic_brachiosaurus</item>
+        <item>@drawable/ic_stegosaurus</item>
+        <item>@drawable/ic_triceratops</item>
+        <item>@drawable/ic_parasaurolophus</item>
+        <item>@drawable/ic_ankylosaurus</item>
+        <item>@drawable/ic_velociraptor</item>
+        <item>@drawable/ic_diplodocus</item>
+        <item>@drawable/ic_ornithomimus</item>
+        <item>@drawable/ic_stegosaurus</item>
+        <item>@drawable/ic_allosaurus_fragilis</item>
+        <item>@drawable/ic_pachycephalosaurus_wyomingensis</item>
+        <item>@drawable/ic_spinosaurus</item>
+        <item>@drawable/ic_brontosaurus</item>
+        <item>@drawable/ic_archaeopteryx</item>
+        <item>@drawable/ic_deinonychus</item>
+    </string-array>
+
+    <string-array name="descDino">
+        <item>Merupakan salah satu dinosaurus karnivora paling terkenal dan besar yang pernah hidup.</item>
+        <item>Merupakan salah satu dinosaurus herbivora terbesar yang pernah hidup dengan leher yang panjang.</item>
+        <item>Memiliki gigi dan tulang belakang yang besar, serta dikenal dengan cakarnya yang kuat.</item>
+        <item>Memiliki tanduk besar di hidungnya dan sering dianggap sebagai salah satu dinosaurus paling ikonik.</item>
+        <item>Dikenal dengan crests besar di atas kepala mereka yang mungkin digunakan untuk menghasilkan suara.</item>
+        <item>Memiliki baju besi yang kuat dan digunakan sebagai perlindungan dari predator.</item>
+        <item>Merupakan dinosaurus yang cepat dan memiliki tubuh yang ramping.</item>
+        <item>Dikenal dengan tulang punggung yang besar dan duri yang digunakan sebagai pertahanan.</item>
+        <item>Merupakan dinosaurus karnivora kecil yang dikenal dengan kecepatan dan kelincahannya.</item>
+        <item>Dikenal dengan lehernya yang panjang dan tubuhnya yang besar.</item>
+        <item>Merupakan dinosaurus karnivora besar yang dikenal dengan gigi tajamnya.</item>
+        <item>Memiliki tengkorak yang tebal dan biasanya digunakan untuk bertarung dengan dinosaurus lain.</item>
+        <item>Merupakan dinosaurus karnivora raksasa yang dikenal dengan sail di punggungnya.</item>
+        <item>Dikenal dengan lehernya yang panjang dan tubuhnya yang besar.</item>
+        <item>Merupakan dinosaurus yang mungkin merupakan nenek moyang burung modern.</item>
+        <item>Merupakan dinosaurus karnivora yang kecil tetapi cerdas dan ganas.</item>
+    </string-array>
+
+    <string-array name="kelDino">
+        <item>Theropoda</item>
+        <item>Theropoda</item>
+        <item>Sauropoda</item>
+        <item>Sauropoda</item>
+        <item>Thyreophora</item>
+        <item>Thyreophora</item>
+        <item>Ceratopsia</item>
+        <item>Ceratopsia</item>
+        <item>Hadrosauroidea</item>
+        <item>Hadrosauroidea</item>
+        <item>Ankylosauria</item>
+        <item>Ankylosauria</item>
+        <item>Ornithopoda</item>
+        <item>Ornithopoda</item>
+        <item>Stegosauria</item>
+        <item>Stegosauria</item>
+    </string-array>
+
+    <string-array name="habitatDino">
+        <item>Wilayah daratan Amerika Utara</item>
+        <item>Daerah hutan tropis</item>
+        <item>Daerah padang rumput dan hutan</item>
+        <item>Daerah dataran tinggi</item>
+        <item>Daerah rawa dan sungai</item>
+        <item>Daerah gurun</item>
+        <item>Daerah padang rumput</item>
+        <item>Daerah dataran tinggi dan hutan</item>
+        <item>Daerah hutan</item>
+        <item>Daerah hutan dan dataran rendah</item>
+        <item>Daerah hutan dan padang rumput</item>
+        <item>Daerah sungai dan rawa</item>
+        <item>Daerah rawa dan sungai</item>
+        <item>Daerah hutan dan dataran rendah</item>
+        <item>Daerah hutan dan dataran rendah</item>
+        <item>Daerah hutan dan dataran rendah</item>
+    </string-array>
+
+    <string-array name="makananDino">
+        <item>Daging</item>
+        <item>Tumbuhan</item>
+        <item>Tumbuhan</item>
+        <item>Tumbuhan</item>
+        <item>Tumbuhan</item>
+        <item>Tumbuhan</item>
+        <item>Tumbuhan</item>
+        <item>Tumbuhan</item>
+        <item>Daging</item>
+        <item>Tumbuhan</item>
+        <item>Daging</item>
+        <item>Tumbuhan</item>
+        <item>Ikan, hewan kecil</item>
+        <item>Tumbuhan</item>
+        <item>Daging, ikan, hewan kecil</item>
+        <item>Daging, ikan, hewan kecil</item>
+    </string-array>
+
+    <string-array name="panjangDino">
+        <item>12.3 meter</item>
+        <item>25 meter</item>
+        <item>9 meter</item>
+        <item>8 meter</item>
+        <item>10.9 meter</item>
+        <item>6.25 meter</item>
+        <item>5 meter</item>
+        <item>9 meter</item>
+        <item>1.8 meter</item>
+        <item>8.5 meter</item>
+        <item>15 meter</item>
+        <item>16 meter</item>
+        <item>22 meter</item>
+        <item>25 meter</item>
+        <item>0.5 meter</item>
+        <item>3 meter</item>
+    </string-array>
+
+    <string-array name="tinggiDino">
+        <item>6 meter</item>
+        <item>16 meter</item>
+        <item>4.5 meter</item>
+        <item>3.5 meter</item>
+        <item>5.5 meter</item>
+        <item>1.5 meter</item>
+        <item>3 meter</item>
+        <item>4 meter</item>
+        <item>0.5 meter</item>
+        <item>4.5 meter</item>
+        <item>5.5 meter</item>
+        <item>3.5 meter</item>
+        <item>7 meter</item>
+        <item>10 meter</item>
+        <item>4 meter</item>
+        <item>2 meter</item>
+    </string-array>
+
+    <string-array name="bobotDino">
+        <item>9 ton</item>
+        <item>50 ton</item>
+        <item>5 ton</item>
+        <item>6 ton</item>
+        <item>4.5 ton</item>
+        <item>4 ton</item>
+        <item>1.5 ton</item>
+        <item>2.5 ton</item>
+        <item>15 kg</item>
+        <item>40 ton</item>
+        <item>3 ton</item>
+        <item>2 ton</item>
+        <item>7 ton</item>
+        <item>15 ton</item>
+        <item>0.5 kg</item>
+        <item>5 kg</item>
+    </string-array>
+
+    <string-array name="kelemahanDino">
+        <item>Tidak ada sayap</item>
+        <item>Lambat bergerak</item>
+        <item>Pertahanan kurang kuat</item>
+        <item>Mudah dihancurkan oleh predator besar</item>
+        <item>Tidak memiliki perlindungan yang kuat</item>
+        <item>Agak rentan terhadap predator besar</item>
+        <item>Tidak memiliki perlindungan yang kuat</item>
+        <item>Mudah diserang dari sisi-sisi tubuh</item>
+        <item>Ukuran tubuh yang kecil dan lemah</item>
+        <item>Lambat bergerak</item>
+        <item>Tulang tengkorak yang tipis</item>
+        <item>Ukurannya yang kecil dan ramping</item>
+        <item>Tidak memiliki pertahanan yang kuat</item>
+        <item>Sangat rentan terhadap predator besar</item>
+        <item>Sangat rentan terhadap serangan predator</item>
+        <item>Rentan terhadap predator dan lingkungan</item>
+    </string-array>
+
+    <string-array name="start_dinos">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="end_dinos">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+        <item>13</item>
+        <item>15</item>
+    </string-array>
+
+</resources>

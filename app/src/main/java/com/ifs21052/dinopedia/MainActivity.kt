@@ -98,16 +98,20 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.menu_about -> {
-                val intent = Intent(this, ProfileActivity::class.java)
-                startActivity(intent)
-                true
+                Toast.makeText(
+                    this, "Memilih menu about",
+                    Toast.LENGTH_SHORT
+                ).show()
             }
-            R.id.menu_baru -> {
-                val intent = Intent(this, GambarDino::class.java)
-                startActivity(intent)
-                true
-            }
+
             R.id.menu_toast -> showToast()
+            R.id.menu_snackbar -> {
+                val rootView: View =
+                    findViewById(android.R.id.content)
+                showSnackbar(rootView)
+            }
+
+            R.id.menu_alert -> showAlertDialog()
             else -> return super.onOptionsItemSelected(item)
         }
         return true
@@ -115,8 +119,34 @@ class MainActivity : AppCompatActivity() {
 
     private fun showToast() {
         Toast.makeText(
-            this, "Maaf, menu belum sempat dibuat",
+            this, "Ini adalah pesan Toast!",
             Toast.LENGTH_SHORT
         ).show()
+    }
+
+    private fun showSnackbar(view: View) {
+        Snackbar.make(
+            view, "Ini adalah pesan Snackbar!",
+            Snackbar.LENGTH_SHORT
+        ).show()
+    }
+
+    private fun showAlertDialog() {
+        val alertDialogBuilder = AlertDialog.Builder(this)
+        alertDialogBuilder.setTitle("Judul Alert")
+            .setMessage("Ini adalah pesan Alert Dialog!")
+            .setPositiveButton("OK") { _, _ ->
+                Toast.makeText(
+                    this, "Tombol ok dipilih",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+            .setNegativeButton("Batal") { _, _ ->
+                Toast.makeText(
+                    this, "Tombol batal dipilih",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+            .show()
     }
 }

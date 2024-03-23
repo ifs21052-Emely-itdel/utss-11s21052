@@ -35,8 +35,7 @@ class  DetailActivity052 : AppCompatActivity() {
         binding.tvDetailDescription.text = dino.description
         binding.tvDetailCharacteristic.text = dino.characteristic
         binding.tvDetailPositive.text = dino.habitat
-        binding.tvDetailNegative.text = dino.peilaku
-        binding.tvDetailPeriode.text = dino.periode
+        binding.tvDetailNegative.text = dino.lingkungan
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {

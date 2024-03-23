@@ -3,7 +3,6 @@ package com.ifs21052.dinopedia
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.ifs21052.dinopedia.MainActivity
 import com.ifs21052.dinopedia.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {
